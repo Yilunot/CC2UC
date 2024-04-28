@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+select, input, button {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 12px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: 5px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+}
+
+#searchForUCB, #searchForUCD, #searchForUCI, #searchForUCLA, #searchForUCM, #searchForUCR, #searchForUCSD, #searchForUCSB, #searchForUCSC {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-align: center;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#searchForUCB:hover, #searchForUCD:hover, #searchForUCI:hover, #searchForUCLA:hover, #searchForUCM:hover, #searchForUCR:hover, #searchForUCSD:hover, #searchForUCSB:hover, #searchForUCSC:hover {
+  transition-duration: 0.5s;
+  background-color: #FFFFFF;
+  color: #000000;
+}
